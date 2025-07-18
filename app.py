@@ -95,8 +95,8 @@ if st.button("Predict"):
 
 
         st.subheader("Prediction Results:")
-        st.write(f"🏆 Predicted Winner: {predicted_winner}")
-        st.write(f"👑 Predicted Man of the Match: {predicted_mom}")
+        st.write(f"-> Predicted Winner: {predicted_winner}")
+        st.write(f"-> Predicted Man of the Match: {predicted_mom}")
 
     except ValueError as e:
         st.error(f"Error encoding teams: {e}. Please select valid teams.")
